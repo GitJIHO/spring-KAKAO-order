@@ -30,7 +30,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
-    testImplementation 'com.squareup.okhttp3:mockwebserver'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-api:2.5.0'
 }
 
 tasks.named('test') {
